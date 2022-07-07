@@ -20,10 +20,10 @@ int main(void)
 		else if (a % 3 == 0)
 			printf("Fizz");
 		else
-			printf("%d", a);
-		printf(" ");
+			printf("%d", a);;
 		if (a == 100)
 			break;
+		printf(" ");
 }
 	printf("\n");
 	return (0);
