@@ -14,14 +14,15 @@ int main(void)
 	for (a = 1; a <= 100; a++)
 	{
 		if (a % 5 == 0 && a % 3 == 0)
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		else if (a % 5 == 0)
-			printf("Buzz ");
+			printf("Buzz");
 		else if (a % 3 == 0)
-			printf("Fizz ");
+			printf("Fizz");
 		else
-			printf("%d ", a);
-	}
+			printf("%d", a);
+		printf(" ");
+}
 	printf("\n");
 	return (0);
 }
