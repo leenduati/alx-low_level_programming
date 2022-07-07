@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _isupper -Prints 1 is c is uppercase, else 0
@@ -9,7 +10,7 @@
 
 int _isupper(int c)
 {
-	char a;
+	int a;
 
 	a = 0;
 
