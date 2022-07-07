@@ -1,35 +1,31 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * print_line -Prints - given the number of times
- *@n: parameter to increase/decrease with the printing
- * Return: Always a (Success)
+ * print_triangle - print a triangle aligned right, using '#'
+ * @size: Size of triangle
  */
-
-
-void print_square(int n)
+void print_triangle(int size)
 {
+	int c, i, j;
 
-	int a;
-
-	int b;
-
-	if (n <= 0)
-		_putchar('\n');
-	else
-{
-		for (a = 0; a < n; a++)
+	c = 0;
+	i = size - 1;
+	while (c < size)
+	{
+		i = size - 1 - c;
+		j = c + 1;
+		while (i > 0)
 		{
-			for (b = 0; b < n; b++)
-			{
-				if (a == b)
-					_putchar('\n');
-				else if (b < a)
-					_putchar('#' );
-			}
-			_putchar('\n');
+			_putchar(32);
+			i--;
 		}
+		while (j > 0)
+		{
+			_putchar('#');
+			j--;
+		}
+		_putchar(10);
+		c++;
 	}
+	if (size <= 0)
+		_putchar(10);
 }
-
