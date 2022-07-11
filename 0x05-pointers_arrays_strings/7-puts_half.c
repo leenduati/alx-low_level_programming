@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * puts2- prints out a string per postive index
+ * puts_half- prints out half of a string
  *@str : parameter passed*
  * Return: Always a (Success)
  */
@@ -19,7 +19,7 @@ void puts_half(char *str)
 	c = p / 2;
 	d = (p - 1) / 2;
 
-	if ( p % 2 == 0)
+	if (p % 2 == 0)
 	{
 
 		for (a = c; a < p; a++)
