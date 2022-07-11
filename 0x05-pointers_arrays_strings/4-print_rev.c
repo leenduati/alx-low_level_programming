@@ -3,8 +3,8 @@
 #include <string.h>
 
 /**
- * _puts- prints out a string as given
- *@str : parameter passed*
+ * print_rev- prints out a string as given in rev
+ *@s : parameter passed*
  * Return: Always a (Success)
  */
 
