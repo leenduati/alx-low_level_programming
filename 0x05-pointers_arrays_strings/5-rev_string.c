@@ -18,11 +18,10 @@ void rev_string(char *s)
 		int a, p;
 
 		p = strlen(s);
-		char str = [];
 
 		for (a = p; a >= 0; a--)
 		{
-			str = s[a];
+			printf("%c", s[a]);
 		}
 		count ++;
 	}
