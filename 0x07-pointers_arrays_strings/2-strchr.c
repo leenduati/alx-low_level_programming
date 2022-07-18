@@ -20,18 +20,18 @@ char *_strchr(char *s, char c)
 
 	while (!(s[a] == '\0'))
 	{
-		if (s[a] == c)
+		if (!(s[a] == c))
 		{
-			res = s  + a;
-			break;
+			res = NULL;
 		}
 
 		else
-			res = s;
+		{
+			res = s + a;
+			break;
+		}
 		a++;
 	}
 
-	if (res == s)
-		res = NULL;
 	return (res);
 }
