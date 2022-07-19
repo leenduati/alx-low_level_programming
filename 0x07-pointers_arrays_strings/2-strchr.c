@@ -27,7 +27,7 @@ char *_strchr(char *s, char c)
 
 		else
 		{
-			res = s + a;
+			res = a + s;
 			break;
 		}
 		a++;
