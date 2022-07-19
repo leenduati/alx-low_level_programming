@@ -12,7 +12,6 @@
 char *_strchr(char *s, char c)
 {
 	int a;
-	char *res;
 
 	a = 0;
 
@@ -20,16 +19,15 @@ char *_strchr(char *s, char c)
 	{
 		if (!(s[a] == c))
 		{
-			res = NULL;
+			return (NULL);
 		}
 
 		else
 		{
-			res = a + s;
+			return (a + s);
 			break;
 		}
 		a++;
 	}
 
-	return (res);
 }
