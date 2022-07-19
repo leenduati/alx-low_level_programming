@@ -11,7 +11,7 @@ int main(void)
     char *s = "helllee nduati is awesome";
     char *f;
 
-    f = _strchr(s, 'e');
+    f = _strchr(s, 's');
 
     if (f != NULL)
     {

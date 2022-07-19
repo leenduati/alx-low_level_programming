@@ -12,21 +12,21 @@
 char *_strchr(char *s, char c)
 {
 	int a;
-
+	char *res;
 	a = 0;
 
 	while (!(s[a] == '\0'))
 	{
-		if (!(s[a] == c))
+		if (s[a] == c)
 		{
-			return (NULL);
+			res = s + a;
+			break;
 		}
-
 		else
 		{
-			return (a + s);
+			res = '\0';
 		}
 		a++;
 	}
-
+	return (res);
 }
