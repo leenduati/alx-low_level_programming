@@ -9,7 +9,7 @@
  */
 
 
-int sqrt_num(int a, int b)
+int sqrt_num(long int a, long int b)
 {
 	if (a == 1)
 		return (1);
@@ -32,5 +32,4 @@ int _sqrt_recursion(int n)
 {
 
 	return (sqrt_num(n, n / 2));
-
 }
