@@ -31,6 +31,6 @@ int sqrt_num(int a, int b)
 int _sqrt_recursion(int n)
 {
 
-	return (sqrt_num(n, n));
+	return (sqrt_num(n, n / 2));
 
 }
