@@ -11,6 +11,8 @@
 
 int check_length(char *st, int n)
 {
+	if (st == "")
+		return (0);
 	if (st[n] == '\0')
 	{
 		return (n);
