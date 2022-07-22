@@ -1,16 +1,7 @@
 #include "main.h"
 
 
-char *_strcat(char *dest, char *src)
+char *_strpbrk(char *s, char *accept)
 {
-	return (dest);
-}
-char *_strncat(char *dest, char *src, int n)
-{
-	return (dest);
-}
-char *_strncpy(char *dest, char *src, int n)
-{
-	return (dest);
-
+	return (s);
 }
