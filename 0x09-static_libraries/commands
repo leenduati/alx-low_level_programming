@@ -1,0 +1,306 @@
+    1  2022-07-22 clear
+    2  2022-07-22 ls
+    3  2022-07-22 cd root/alx-low_level_programming/
+    4  2022-07-22 ls
+    5  2022-07-22 mkdir 0x09-static_libraries
+    6  2022-07-22 nano README.md
+    7  2022-07-22 cd 0x09-static_libraries/
+    8  2022-07-22 nano 0x09-static_libraries
+    9  2022-07-22 ls
+   10  2022-07-22 cd 0x09-static_libraries 
+   11  2022-07-22 cat 0x09-static_libraries 
+   12  2022-07-22 mv 0x09-static_libraries README.md
+   13  2022-07-22 ls
+   14  2022-07-22 clear
+   15  2022-07-22 ls
+   16  2022-07-22 nano README.md 
+   17  2022-07-22 ls
+   18  2022-07-22 mkdir example
+   19  2022-07-22 ls
+   20  2022-07-22 cd example/
+   21  2022-07-22 nano addNumbers.c
+   22  2022-07-22 cat ../../0x02-functions_nested_loops/1-alphabet.c
+   23  2022-07-22 nano addNumbers.c 
+   24  2022-07-22 ls
+   25  2022-07-22 clear
+   26  2022-07-22 ls
+   27  2022-07-22 cp addNumbers.c subNumbers.c
+   28  2022-07-22 nano subNumbers.c 
+   29  2022-07-22 clear
+   30  2022-07-22 mkdir lee_include lee_lib
+   31  2022-07-22 ls
+   32  2022-07-22 nano Learning Objectives
+   33  2022-07-22 nano addNumbers.c 
+   34  2022-07-22 nano subNumbers.c 
+   35  2022-07-22 nano doMath.c
+   36  2022-07-22 ls
+   37  2022-07-22 nano lee_include/main.h
+   38  2022-07-22 cat ../../0x01-variables_if_else_while/main.h
+   39  2022-07-22 clear
+   40  2022-07-22 cat ../../0x02-functions_nested_loops/main.h 
+   41  2022-07-22 nano lee_include/main.h
+   42  2022-07-22 nano lee_include/main.h lee_include/main.h 
+   43  2022-07-22 cat lee_include/main.h 
+   44  2022-07-22 nano lee_include/main.h 
+   45  2022-07-22 cp --help
+   46  2022-07-22 cp ../../0x02-functions_nested_loops/main.h 
+   47  2022-07-22 cp ../../0x02-functions_nested_loops/main.h lee_include/main.h 
+   48  2022-07-22 nano lee_include/main.h 
+   49  2022-07-22 clear
+   50  2022-07-22 ls
+   51  2022-07-22 gcc -c addNumbers.c 
+   52  2022-07-22 ls
+   53  2022-07-22 gcc addNumbers.
+   54  2022-07-22 cat addNumbers.c
+   55  2022-07-22 ls
+   56  2022-07-22 gcc -c addNumbers.c subNumbers.c 
+   57  2022-07-22 ls
+   58  2022-07-22 file addNumbers.o
+   59  2022-07-22 clear
+   60  2022-07-22 man ar
+   61  2022-07-22 ar --help
+   62  2022-07-22 ar cr libmathtest.a addNumbers.o subNumbers.o
+   63  2022-07-22 ls
+   64  2022-07-22 ar t libmathtest.a 
+   65  2022-07-22 mv libmathtest.a lee_lib/
+   66  2022-07-22 ls
+   67  2022-07-22 clear
+   68  2022-07-22 ls
+   69  2022-07-22 gcc doMath.c 
+   70  2022-07-22 gcc doMath.c -I lee_include/ 
+   71  2022-07-22 cat doMath.c -n
+   72  2022-07-22 nano doMath.c 
+   73  2022-07-22 gcc doMath.c -I lee_include/ 
+   74  2022-07-22 nano doMath.c 
+   75  2022-07-22 gcc doMath.c -I lee_include/ 
+   76  2022-07-22 clar
+   77  2022-07-22 clear
+   78  2022-07-22 gcc doMath.c -I lee_include/ 
+   79  2022-07-22 gcc doMath.c -I lee_include/ -L lee_lib/ 
+   80  2022-07-22 ls
+   81  2022-07-22 cd lee_lib/
+   82  2022-07-22 ls
+   83  2022-07-22 cd -
+   84  2022-07-22 gcc doMath.c-lmathtest  -I lee_include/ -L lee_lib/ 
+   85  2022-07-22 gcc doMath.c -lmathtest  -I lee_include/ -L lee_lib/ 
+   86  2022-07-22 ./a.out 
+   87  2022-07-22 cat subNumbers.c
+   88  2022-07-22 cat doMath.c 
+   89  2022-07-22 nano doMath.c 
+   90  2022-07-22 clear
+   91  2022-07-22 gcc doMath.c -lmathtest  -I lee_include/ -L lee_lib/ 
+   92  2022-07-22 ./a.out 
+   93  2022-07-22 file a.out 
+   94  2022-07-22 history
+   95  2022-07-22 printenv
+   96  2022-07-22 printenv | paste
+   97  2022-07-22 printenv | sort
+   98  2022-07-22 sort --help
+   99  2022-07-22 printenv | sort
+  100  2022-07-22 HISTTIMEFORMAT="%Y-%m-%d
+"
+  101  2022-07-22 history 
+  102  2022-07-22 HISTTIMEFORMAT="%Y-%m-%d"
+  103  2022-07-22 history 
+  104  2022-07-22 HISTTIMEFORMAT="%Y-%m-%d"
+  105  2022-07-22 HISTTIMEFORMAT="%Y-%m-%d "
+  106  2022-07-22 history 
+  107  2022-07-22 nano ~/.bashrc 
+  108  2022-07-22 nano commands_used
+  109  2022-07-22 fg
+  110  2022-07-22 ls
+  111  2022-07-22 history > commands_used
+  112  2022-07-22 cat commands_used 
+  113  2022-07-22 cd ..
+  114  2022-07-22 cd -
+  115  2022-07-22 ls
+  116  2022-07-22 ar -t lee_lib/libmathtest.a 
+  117  2022-07-22 nm lee_lib/libmathtest.a 
+  118  2022-07-22 cd ..
+  119  2022-07-22 ls
+  120  2022-07-22 cp example/lee_include/main.h main.h
+  121  2022-07-22 ls
+  122  2022-07-22 nano main.h
+  123  2022-07-22 clear
+  124  2022-07-22 ls
+  125  2022-07-22 nano _putchar.c
+  126  2022-07-22 cp ../0x02-functions_nested_loops/6-abs.c 6-abs.c
+  127  2022-07-22 cp ../0x02-functions_nested_loops/4-isalpha.c 4-isalpha.c
+  128  2022-07-22 cp --help
+  129  2022-07-22 cp ../0x02-functions_nested_loops/ . -b
+  130  2022-07-22 cp -b ../0x02-functions_nested_loops/ . 
+  131  2022-07-22 cp -a ../0x02-functions_nested_loops/ . 
+  132  2022-07-22 ls
+  133  2022-07-22 clear
+  134  2022-07-22 rm -r 0x02-functions_nested_loops/
+  135  2022-07-22 ls
+  136  2022-07-22 cp -r ../0x02-functions_nested_loops/
+  137  2022-07-22 cp -r ../0x02-functions_nested_loops/ .
+  138  2022-07-22 cp -r ../0x03-debugging/ .
+  139  2022-07-22 ls
+  140  2022-07-22 cp 0x02-functions_nested_loops/ . -r
+  141  2022-07-22 ls
+  142  2022-07-22 rm -r 0x02-functions_nested_loops/
+  143  2022-07-22 rm -r 0x03-debugging/
+  144  2022-07-22 ls
+  145  2022-07-22 clear
+  146  2022-07-22 ls
+  147  2022-07-22 nano main.c
+  148  2022-07-22 find ../0x01-variables_if_else_while/ -type -f
+  149  2022-07-22 find ../0x01-variables_if_else_while/ -type f
+  150  2022-07-22 find ../0x01-variables_if_else_while/ -type f -execdir cp "{}" .
+  151  2022-07-22 find ../0x01-variables_if_else_while/ -type f -execdir cp "{}" . ";"
+  152  2022-07-22 ls
+  153  2022-07-22 ls. ";"
+  154  2022-07-22 ls
+  155  2022-07-22 git status
+  156  2022-07-22 clear
+  157  2022-07-22 ls
+  158  2022-07-22 cat example/commands_used 
+  159  2022-07-22 cat ../0x01-variables_if_else_while/0-positive_or_negative.c 
+  160  2022-07-22 cat ../../alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home 
+  161  2022-07-22 ls ../
+  162  2022-07-22 cp -r ../0x00-hello_world/ .
+  163  2022-07-22 ls
+  164  2022-07-22 cp -r ../0x02-functions_nested_loops/ .
+  165  2022-07-22 cp -r ../0x0* .
+  166  2022-07-22 ls
+  167  2022-07-22 cd 0x00-hello_world/
+  168  2022-07-22 ls
+  169  2022-07-22 clear
+  170  2022-07-22 cp *c ../
+  171  2022-07-22 cd ../0x02-functions_nested_loops/
+  172  2022-07-22 cp *c ../
+  173  2022-07-22 cd ../0x03-debugging/
+  174  2022-07-22 cp *c ../
+  175  2022-07-22 ls ../
+  176  2022-07-22 cd ../0x04-more_functions_nested_loops/ 
+  177  2022-07-22 cp *c ../
+  178  2022-07-22 cd ../0x05-pointers_arrays_strings/
+  179  2022-07-22 cp *c ../
+  180  2022-07-22 cd ../0x06-pointers_arrays_strings/
+  181  2022-07-22 cp *c ../
+  182  2022-07-22 cd ../0x07-pointers_arrays_strings/ 
+  183  2022-07-22 cp *c ../
+  184  2022-07-22 cd ../0x08-recursion/
+  185  2022-07-22 cp *c ../
+  186  2022-07-22 cd ../0x08-recursion/
+  187  2022-07-22 cp *c ../
+  188  2022-07-22 cd ..
+  189  2022-07-22 ls
+  190  2022-07-22 rm -r 0x0*
+  191  2022-07-22 ls
+  192  2022-07-22 clear
+  193  2022-07-22 ls
+  194  2022-07-22 ls -l
+  195  2022-07-22 nano 100-atoi.c
+  196  2022-07-22 cat 4-isalpha.c 
+  197  2022-07-22 clear
+  198  2022-07-22 ls
+  199  2022-07-22 cat 5-strstr.c 
+  200  2022-07-22 cat 3-strcmp.c 
+  201  2022-07-22 cat 3-strspn.c 
+  202  2022-07-22 nano 4-strpbrk.c
+  203  2022-07-22 clear
+  204  2022-07-22 ls
+  205  2022-07-22 gcc -c 0-isupper.c 0-memset.c 0-strcat.c 1-isdigit.c 1-memcpy.c 1-strncat.c 100-atoi.c 2-strchr.c 2-strlen.c 3-islower.c 3-puts.c 3-strcmp.c 3-strspn.c 4-isalpha.c 4-strpbrk.c 5-strstr.c 6-abs.c 9-strcpy.c _putchar.c 
+  206  2022-07-22 ls
+  207  2022-07-22 ls | *.o
+  208  2022-07-22 ar ct libmy.a 0-isupper.o 0-memset.o 0-strcat.o 1-isdigit.o 1-memcpy.o 1-strncat.o 100-atoi.o 2-strchr.o 2-strlen.o 2-strncpy.o 3-islower.o 3-puts.o 3-strcmp.o 3-strspn.o 4-isalpha.o 4-strpbrk.o 5-strstr.o 6-abs.o 9-strcpy.o _putchar.o
+  209  2022-07-22 ar cr libmy.a 0-isupper.o 0-memset.o 0-strcat.o 1-isdigit.o 1-memcpy.o 1-strncat.o 100-atoi.o 2-strchr.o 2-strlen.o 2-strncpy.o 3-islower.o 3-puts.o 3-strcmp.o 3-strspn.o 4-isalpha.o 4-strpbrk.o 5-strstr.o 6-abs.o 9-strcpy.o _putchar.o
+  210  2022-07-22 gcc -c 2-strncpy.c 
+  211  2022-07-22 ar cr libmy.a 0-isupper.o 0-memset.o 0-strcat.o 1-isdigit.o 1-memcpy.o 1-strncat.o 100-atoi.o 2-strchr.o 2-strlen.o 2-strncpy.o 3-islower.o 3-puts.o 3-strcmp.o 3-strspn.o 4-isalpha.o 4-strpbrk.o 5-strstr.o 6-abs.o 9-strcpy.o _putchar.o
+  212  2022-07-22 ar -t libmy.a 
+  213  2022-07-22 nm libmy.a 
+  214  2022-07-22 ls
+  215  2022-07-22 clear
+  216  2022-07-22 ls
+  217  2022-07-22 cd ..
+  218  2022-07-22 ls
+  219  2022-07-22 cd -
+  220  2022-07-22 ls
+  221  2022-07-22 pwd
+  222  2022-07-22 git add .
+  223  2022-07-22 git commit -m "Create the static library libmy.a containing all the functions listed below:"
+  224  2022-07-22 git push
+  225  2022-07-22 cat example/commands_used 
+  226  2022-07-22 cat example/commands_used | grep ar
+  227  2022-07-22 ls
+  228  2022-07-22 ar -t libmy.a 
+  229  2022-07-22 cat 4-strpbrk.c
+  230  2022-07-22 nano 4-strpbrk.c
+  231  2022-07-22 git add .
+  232  2022-07-22 git commit -m "Fixed 4-strpbrk.c to display the correct function"
+  233  2022-07-22 git push
+  234  2022-07-22 ls
+  235  2022-07-22 clear
+  236  2022-07-22 gcc -c 4-strpbrk.
+  237  2022-07-22 gcc -c 4-strpbrk.c
+  238  2022-07-22 ar cr libmy.a 4-strpbrk.c
+  239  2022-07-22 ar -t libmy.a 
+  240  2022-07-22 ar cr libmy.a 0-isupper.o 0-memset.o 0-strcat.o 1-isdigit.o 1-memcpy.o 1-strncat.o 100-atoi.o 2-strchr.o 2-strlen.o 2-strncpy.o 3-islower.o 3-puts.o 3-strcmp.o 3-strspn.o 4-isalpha.o 4-strpbrk.o 5-strstr.o 6-abs.o 9-strcpy.o _putchar.o
+  241  2022-07-22 ar -t libmy.a 
+  242  2022-07-22 rm libmy.a 
+  243  2022-07-22 ar cr libmy.a 0-isupper.o 0-memset.o 0-strcat.o 1-isdigit.o 1-memcpy.o 1-strncat.o 100-atoi.o 2-strchr.o 2-strlen.o 2-strncpy.o 3-islower.o 3-puts.o 3-strcmp.o 3-strspn.o 4-isalpha.o 4-strpbrk.o 5-strstr.o 6-abs.o 9-strcpy.o _putchar.o
+  244  2022-07-22 ar -t libmy.a 
+  245  2022-07-22 git add .
+  246  2022-07-22 git commit -m "Compiled then created libmy.a once more"
+  247  2022-07-22 git push
+  248  2022-07-22 clear
+  249  2022-07-22 ls
+  250  2022-07-22 nano create_static_lib.h
+  251  2022-07-22 chmod 777 create_static_lib.h 
+  252  2022-07-22 mv create_static_lib.h create_static_lib.sh
+  253  2022-07-22 ./create_static_lib.sh 
+  254  2022-07-22 cat create_static_lib.sh 
+  255  2022-07-22 nano create_static_lib.sh 
+  256  2022-07-22 cat create_static_lib.sh 
+  257  2022-07-22 ./create_static_lib.sh 
+  258  2022-07-22 clera
+  259  2022-07-22 clear
+  260  2022-07-22 cat create_static_lib.sh 
+  261  2022-07-22 ls
+  262  2022-07-22 nm liball.a 
+  263  2022-07-22 ar -t liball.a 
+  264  2022-07-22 git add .
+  265  2022-07-22 git commit -m 
+  266  2022-07-22 git commit -m "Script creates a static library called liball.a from all the .c files that are in the current directory."
+  267  2022-07-22 git push
+  268  2022-07-22 clar
+  269  2022-07-22 clear
+  270  2022-07-22 nano create_static_lib.sh 
+  271  2022-07-22 ./create_static_lib.sh 
+  272  2022-07-22 nano create_static_lib.sh 
+  273  2022-07-22 ./create_static_lib.sh 
+  274  2022-07-22 nano create_static_lib.sh 
+  275  2022-07-22 ./create_static_lib.sh 
+  276  2022-07-22 clear
+  277  2022-07-22 nano create_static_lib.sh 
+  278  2022-07-22 ./create_static_lib.sh 
+  279  2022-07-22 nano create_static_lib.sh 
+  280  2022-07-22 ./create_static_lib.sh 
+  281  2022-07-22 clear
+  282  2022-07-22 rm liball.a 
+  283  2022-07-22 ./create_static_lib.sh 
+  284  2022-07-22 ar -t liball.a 
+  285  2022-07-22 clear
+  286  2022-07-22 git add .
+  287  2022-07-22 git commit -m "Removed pipe command in the bash script"
+  288  2022-07-22 git psuh
+  289  2022-07-22 git push
+  290  2022-07-22 ls -l create_static_lib.sh 
+  291  2022-07-22 nano create_static_lib.sh 
+  292  2022-07-22 shopt -s extglob
+  293  2022-07-22 ls
+  294  2022-07-22 shopt -s extglob
+  295  2022-07-22 rm -v !("0-isupper.c"|"0-memset.c"|"0-strcat.c"|"1-isdigit.c"|"1-memcpy.c"|"1-strncat.c"|"100-atoi.c"|"2-strchr.c"|"2-strlen.c"|"2-strncpy.c"|"3-islower.c"|"3-puts.c"|"3-strcmp.c"|"3-strspn.c"|"4-isalpha.c"|"4-strpbrk.c"|"5-strstr.c"|"6-abs.c"|"9-strcpy.c"|"_putchar.c")
+  296  2022-07-22 ls
+  297  2022-07-22 ls -la
+  298  2022-07-22 cd example/
+  299  2022-07-22 ls
+  300  2022-07-22 nano README.md
+  301  2022-07-22 nano main.h
+  302  2022-07-22 nano _putchar.c
+  303  2022-07-22 nano create_static_lib.sh
+  304  2022-07-22 history
+  305  2022-07-22 history > commands
