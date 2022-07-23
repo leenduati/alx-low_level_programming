@@ -11,25 +11,32 @@
 */
 
 
-int main(int argc, char *argv[])
-{
-	int num, digit, sum = 0;
 
-	for (num = 1; num < argc; num++)
+int main(int argc, char **argv)
+{
+	int a;
+	int res = 0;
+
+	if (argc > 2)
 	{
-		for (digit = 0; argv[num][digit]; digit++)
+		for (a = 1; a < argc; a++)
 		{
-			if (argv[num][digit] < '0' || argv[num][digit] > '9')
+			if (atoi(argv[a]) < '0' || atoi(argv[a]) > '9')
 			{
 				printf("Error\n");
 				return (1);
 			}
+			else
+			{
+				res = res + atoi(argv[a]);
+			}
 		}
-
-		sum += atoi(argv[num]);
+		printf("%d\n", res);
+		return (0);
 	}
-
-	printf("%d\n", sum);
-
+	else if (argc < 1)
+	{
+		printf("%d\n", 0);
+	}
 	return (0);
 }
