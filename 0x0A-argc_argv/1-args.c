@@ -1,5 +1,8 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdlib.h>
 
 /**
  *main-function that returns name of program
@@ -12,13 +15,11 @@
 
 int main(int argc, char **argv)
 {
-	int a;
-	char count[];
+	int a, sum;
 
 	for (a = 0; a < argc; a++)
-	{
-		count = argv[a];
-	}
-	printf("%d\n",argc);
+		sum = sum + atoi(argv[a]);
+
+	printf("%d\n", argc - 1);
 	return (0);
 }
