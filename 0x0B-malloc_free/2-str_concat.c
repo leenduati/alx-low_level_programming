@@ -28,13 +28,17 @@ char *str_concat(char *s1, char *s2)
         {
                 return (s1);
         }
+	if (s2 ==  NULL && s1 == NULL)
+	{
+		return(' ');
+	}
 
 	ln_1 = strlen(s1);
 	ln_2 = strlen(s2);
 
 	p1 = malloc((ln_1 + 1) * sizeof(char));
 	p2 = malloc((ln_2 + 1) * sizeof(char));
-	res = malloc((ln_1 + ln_2 + 1) * sizeof(char));
+	res = malloc((ln_1 + ln_2) * sizeof(char));
 
 	if (p1 == NULL || p2 ==  NULL)
 	{
