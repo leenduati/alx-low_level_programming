@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
         }
 	if (s2 ==  NULL && s1 == NULL)
 	{
-		return(' ');
+		return("");
 	}
 
 	ln_1 = strlen(s1);
