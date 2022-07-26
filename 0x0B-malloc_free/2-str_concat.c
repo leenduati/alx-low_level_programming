@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 
 /**
  *str_concat - Joins two strings together
@@ -18,11 +19,8 @@ char *str_concat(char *s1, char *s2)
 	int ln_1;
 	int ln_2;
 
-	if (s2 == NULL && s1 == NULL)
-	{
-		return (NULL);
-	}
-
+	if (s1 == NULL && s2 == NULL)
+		exit(1);
 	if (s1 == NULL && s2 != NULL)
 	{
 		s1 = "";
@@ -51,4 +49,5 @@ char *str_concat(char *s1, char *s2)
 		res[a + i] = s2[i];
 	}
 	return (res);
+	free(res);
 }
