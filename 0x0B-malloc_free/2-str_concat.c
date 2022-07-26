@@ -20,7 +20,10 @@ char *str_concat(char *s1, char *s2)
 	int ln_2;
 
 	if (s1 == NULL && s2 == NULL)
+	{
+		printf("\n");
 		exit(1);
+	}
 	if (s1 == NULL && s2 != NULL)
 	{
 		s1 = "";
