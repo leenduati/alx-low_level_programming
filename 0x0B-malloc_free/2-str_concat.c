@@ -13,34 +13,30 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	char *p1;
-	char *p2;
 	char *res;
 	int a, i;
 	int ln_1;
 	int ln_2;
 
-	if (s1 == NULL && (!(s2 == NULL)))
+	if (s2 == NULL && s1 == NULL)
 	{
-		return (s2);
+		return (NULL);
 	}
-	if (s2 == NULL && (!(s1 == NULL)))
-        {
-                return (s1);
-        }
-	if (s2 ==  NULL && s1 == NULL)
+
+	if (s1 == NULL && s2 != NULL)
 	{
-		return("");
+		s1 = "";
+	}
+	if (s2 == NULL && s1 != NULL)
+	{
+		s2 = "";
 	}
 
 	ln_1 = strlen(s1);
 	ln_2 = strlen(s2);
-
-	p1 = malloc((ln_1 + 1) * sizeof(char));
-	p2 = malloc((ln_2 + 1) * sizeof(char));
 	res = malloc((ln_1 + ln_2) * sizeof(char));
 
-	if (p1 == NULL || p2 ==  NULL)
+	if (res == NULL)
 	{
 		return (NULL);
 	}
@@ -48,14 +44,11 @@ char *str_concat(char *s1, char *s2)
 	{
 		res[a] = res[a] + s1[a];
 	}
-	/* printf("a is %d\n", a); */
+	printf("a is %d\n", a);
 
 	for (i = 0; i <= (a + ln_2); i++)
 	{
 		res[a + i] = s2[i];
 	}
 	return (res);
-	free(p1);
-	free(p2);
-	free(res);
 }
