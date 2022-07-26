@@ -40,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		res[a] = res[a] + s1[a];
 	}
-	printf("a is %d\n", a);
+	/* printf("a is %d\n", a); */
 
 	for (i = 0; i <= (a + ln_2); i++)
 	{
