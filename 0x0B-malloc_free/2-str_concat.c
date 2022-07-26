@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 
 	ln_1 = strlen(s1);
 	ln_2 = strlen(s2);
-	res = malloc((ln_1 + ln_2) * sizeof(char));
+	res = malloc((ln_1 + ln_2 + 1) * sizeof(char));
 
 	if (res == NULL)
 	{
@@ -44,7 +44,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		res[a] = res[a] + s1[a];
 	}
-	printf("a is %d\n", a);
+	/* printf("a is %d\n", a); */
 
 	for (i = 0; i <= (a + ln_2); i++)
 	{
