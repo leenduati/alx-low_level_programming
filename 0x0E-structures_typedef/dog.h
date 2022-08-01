@@ -1,0 +1,20 @@
+#ifndef dog
+#define dog
+/**
+ *struct dog - this is a dog
+ *@name: first member
+ *@age: second member
+ *@owner: third member
+ *
+ *
+ *Description: these are the characteristics of a dog
+ */
+
+
+struct dog
+{
+	char *name;
+	float age;
+	char *owner;
+};
+#endif
