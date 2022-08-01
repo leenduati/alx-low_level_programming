@@ -101,23 +101,3 @@ whenever [identifier name] shows up in the file, it will be replaced by [value].
 If you are defining a constant in terms of a mathematical expression, it is wise to surround the entire value in parentheses:
 1
 #define PI_PLUS_ONE (3.14 + 1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
