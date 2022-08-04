@@ -14,9 +14,5 @@ void print_name(char *name, void (*f)(char *))
 	unsigned int i;
 
 	if (name && f)
-	{
-		for (i = 0; i < strlen(name); i++)
-			_putchar(i);
-	}
-	f(name);
+		f(name);
 }
