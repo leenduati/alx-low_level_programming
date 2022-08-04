@@ -11,7 +11,6 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	unsigned int i;
 
 	if (name && f)
 		f(name);
