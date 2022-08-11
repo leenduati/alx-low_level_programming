@@ -39,14 +39,19 @@ size_t print_list(const list_t *h)
 		i++;
 	}
 
+	printf("[%ld] %s\n", len, h->str);
+
 	while (h->next != NULL)
 	{
-		printf("[%ld] %s\n", len, h->str);
 		h = h->next;
+		printf("[%ld] %s\n", len, h->str);
 		count++;
 	}
 
 
-	printf("[%ld] %s\n", len, h->str);
+	/*
+	 * printf("[%ld] %s\n", len, h->str);
+	*/
+
 	return (count);
 }
