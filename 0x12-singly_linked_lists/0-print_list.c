@@ -13,7 +13,7 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t len = 0;
+	size_t l;
 	int i = 0;
 	int count = 1;
 
@@ -29,13 +29,13 @@ size_t print_list(const list_t *h)
 		 *if string is null, print null then assign h to next value
 		 */
 
-		printf("[%ld] (nil)\n", len);
+		printf("[%d] (nil)\n", 0);
 		h = h->next;
 		count++;
 	}
 	while (h->str[i] != '\0')
 	{
-		len++;
+		l++;
 		i++;
 	}
 
