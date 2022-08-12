@@ -14,33 +14,39 @@
  *int i which is the loop integer
  *count which will count the nodes form 1
  *head = NULL
- *add_node(&head, "Alexandro");
- *add_node(&head, "Asaia");
- *add_node(&head, "Augustin");
+ *add_node_end(&head, "Alexandro");
+ *add_node_end(&head, "Asaia");
+ *add_node_end(&head, "Augustin");
 */
 
 list_t *add_node_end(list_t **head, const char *str)
 {
 
 	list_t *temp;
-	int length = 0;
+	list_t *ptr;
 
-	temp = malloc(sizeof(list_t));
-	if (temp == NULL)
+	ptr = malloc(sizeof(list_t));
+	if (ptr == NULL)
 		return (NULL);
 
-	while (str[length])
-		length++;
+	ptr->str = strdup(str);
+	ptr->len = strlen(ptr->str);
+	ptr->next = NULL;
+
 
 	/**
 	 * for pushing to last elem, we need first to allocate temp.str to the strcopy
 	 * then assigning head mem all to vary of temp
 	 * at each instance, we will add/push new node to the end
 	*/
-
-	temp->len = length;
-	temp->str = strdup(str);
-	*head = temp;
-	temp->next = *head;
-	return (temp);
+	if (*head == NULL)
+	{
+		*head = ptr;
+		return (ptr);
+	}
+	temp = *head;
+	while (temp->next)
+		temp = temp->next;
+	temp->next = ptr;
+	return (ptr);
 }
