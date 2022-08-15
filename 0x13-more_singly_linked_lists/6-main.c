@@ -14,7 +14,7 @@ int main(void)
     int n;
 
     head = NULL;
-    add_nodeint_end(&head, 0);
+    add_nodeint_end(&head, 10);
     add_nodeint_end(&head, 1);
     add_nodeint_end(&head, 2);
     add_nodeint_end(&head, 3);
@@ -24,10 +24,16 @@ int main(void)
     add_nodeint_end(&head, 1024);
     print_listint(head);
     n = pop_listint(&head);
-    printf("- %d\n", n);
+    printf("solution 1 is- %d\n", n);
     print_listint(head);
     n = pop_listint(&head);
-    printf("- %d\n", n);
+    printf("solution 2- %d\n", n);
+    n = pop_listint(&head);
+  printf("solution 2- %d\n", n);   
+    n = pop_listint(&head);
+ printf("solution 2- %d\n", n);
+    n = pop_listint(&head);
+ printf("solution 2- %d\n", n);
     print_listint(head);
     free_listint2(&head);
     printf("%p\n", (void *)head);

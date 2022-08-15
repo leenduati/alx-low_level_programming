@@ -3,28 +3,31 @@
 #include <stdio.h>
 #include "lists.h"
 
+/**
+ *pop_listint-unction that deletes  list's head node,and returns data
+ *@head: this is the list itself
+ *Return: return the result which is the value of list at n
+*/
+
+
 
 int pop_listint(listint_t **head)
 {
-	listint_t *temp;
+	int result = 0;
 
-	temp = malloc(sizeof(listint_t));
-	if (temp ==  NULL)
+
+	if (*head ==  NULL)
 	{
 		return (0);
 	}
 
-	temp->next = *head;
-
 	/** (**head).next = *head; */
-	/* while (temp->next != NULL)
+	while ((*head)->next != NULL)
 	{
-		result = temp->n;
-		temp = NULL;
+		result = (*head)->n;
+		*head = (*head)->next;
 		break;
 	}
-	*/
 
-	free(head);
-	return ((*head)->n);
+	return (result);
 }
