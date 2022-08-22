@@ -27,6 +27,8 @@ int append_text_to_file(const char *filename, char *text_context)
 
 	if (fd == -1)
 		return (-1);
+	if (text_context == NULL)
+		text_context = "";
 
 	k = write(fd, text_context, strlen(text_context));
 
