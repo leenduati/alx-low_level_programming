@@ -6,7 +6,7 @@
 #include <string.h>
 
 /**
- *create_file-function that creates a file.
+ *append_text_to_file-function that APPENDS TEXT AT THE END OF THE FILE
  *@filename: nameoffile
  *@text_context: the text to fill in created doc
  *Return: return 1, if successful
@@ -14,7 +14,7 @@
 
 
 
-int create_file(const char *filename, char *text_context)
+int append_text_to_file(const char *filename, char *text_context)
 {
 	int k;
 	int fd;
@@ -23,7 +23,7 @@ int create_file(const char *filename, char *text_context)
 	if (filename == NULL)
 		return (-1);
 
-	fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, 00600);
+	fd = open(filename, O_WRONLY | O_APPEND, 00600);
 
 	if (fd == -1)
 		return (-1);
