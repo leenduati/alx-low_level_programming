@@ -1,0 +1,696 @@
+    1  clear
+    2  ls
+    3  ls /
+    4  sudo useradd nduati
+    5  sudo passwd 
+    6  sudo usermod -a -G sudo nduati
+    7  chsh -s/bin/bash nduati
+    8  sudo chsh -s/bin/bash nduati
+    9  rebot
+   10  reboot
+   11  sudo reboot
+   12  sudo paswd
+   13  sudo passwd
+   14  sudo users
+   15  ls
+   16  ls
+   17  cd Documents
+   18  ls
+   19  clear
+   20  ls
+   21  git init
+   22  git clone https://github.com/leenduati/alx-higher_level_programming.git
+   23  ls
+   24  cd alx-higher_level_programming
+   25  ls
+   26  cd -
+   27  clear
+   28  ls
+   29  git config --global user.name "leenduati"
+   30  git config --global user.email "leenduati21@gmail.com"
+   31  l
+   32  clear
+   33  git config –global credential. helper store
+   34  git config –global credential. helper store --add
+   35  clear
+   36  git config –global credential.helper store
+   37  git config --global credential.helper store
+   38  t config --global credential.helper 'cache --timeout=360000'
+   39  git config --global credential.helper 'cache --timeout=360000'
+   40  clear
+   41  mkdir alx-higher_level_programming/0x03-python-data_structures
+   42  nanao README.md
+   43  nano README.md
+   44  clear
+   45  ls
+   46  mv README.md alx-higher_level_programming/0x03-python-data_structures/README.md
+   47  ls
+   48  cd alx-higher_level_programming
+   49  ls
+   50  clear
+   51  ls
+   52  nano 0x03-python-data_structures/0-main.py
+   53  nano 0x03-python-data_structures/0-print_list_integer
+   54  chmod 777 0x03-python-data_structures/0-print_list_integer
+   55  ./0x03-python-data_structures/0-print_list_integer
+   56  nano 0x03-python-data_structures/0-print_list_integer
+   57  chmod 777 0x03-python-data_structures/0-main.py
+   58  ./0x03-python-data_structures/0-main.py
+   59  nano 0x03-python-data_structures/0-print_list_integer
+   60  mv 0x03-python-data_structures/0-print_list_integer 0x03-python-data_structures/0-print_list_integer.py
+   61  ./0x03-python-data_structures/0-main.py
+   62  sudo apt install pycodestyle yle
+   63  sudo apt install pycodestyle
+   64  pycodestyle 0x03-python-data_structures/0-print_list_integer.py
+   65  clear
+   66  ls
+   67  pycodestyle 0x03-python-data_structures/0-print_list_integer.py
+   68  git add .
+   69  git commit -m "First task and readme" 
+   70  git push
+   71  nano 0x03-python-data_structures/0-print_list_integer
+   72  nano 0x03-python-data_structures/0-print_list_integer.py
+   73  clear
+   74  ./0x03-python-data_structures/0-main.py
+   75  ./0x03-python-data_structures/0-main.py >> c.txt
+   76  cat c.txt -e
+   77  git add .
+   78  git commit -m "checked string format"
+   79  git push
+   80  nano 0x03-python-data_structures/0-print_list_integer.py
+   81  git add .
+   82  git commit -m "Added decimal output in task 0"
+   83  pycodestyle 0x03-python-data_structures/0-print_list_integer.py
+   84  git push
+   85  clear
+   86  nano 0x03-python-data_structures/1-main.py
+   87  cd 0x03-python-data_structures
+   88  ls
+   89  nano 1-element.py
+   90  pycodestyle 1-element.py
+   91  chmod 777 1-element.py 1-main.py
+   92  ./m
+   93  ./1-main.py
+   94  mv 1-element.py 1-element_at.py
+   95  ./1-main.py
+   96  nano 1-element.py
+   97  nano 1-element_at.py
+   98  clear
+   99  ./1-main.py
+  100  pycodestyle 1-element.py
+  101  pycodestyle 1-element_at.py
+  102  clear
+  103  git add .
+  104  git commit -m "Task 1, return element at certain index"
+  105  git push
+  106  git init
+  107  git push
+  108  cd ..
+  109  git push
+  110  clear
+  111  cd 0x03-python-data_structures
+  112  ls
+  113  ./1-main.py
+  114  nano 1-main.py
+  115  ./1-main.py
+  116  nano 1-element_at.py
+  117  ./1-main.py
+  118  clear
+  119  git add .
+  120  git commit -m "took care of when index is exact as length"
+  121  git push
+  122  cd ..
+  123  git push
+  124  git add .
+  125  git commit -m "took care of when index is exact as length"
+  126  git push
+  127  clear
+  128  ls
+  129  nano 0x03-python-data_structures/2-main.py
+  130  chmod 777 0x03-python-data_structures/2-main.py
+  131  nano 0x03-python-data_structures/2-replace_in_list.py
+  132  chmod 777 0x03-python-data_structures/2-replace_in_list.py
+  133  ./0x03-python-data_structures/2-main.py
+  134  pycodestyle 0x03-python-data_structures/2-replace_in_list.py
+  135  git add .
+  136  git push
+  137  git commit -m "Task 2 , replacnfg elem at particular index"
+  138  git push
+  139  clear
+  140  ls
+  141  nano 0x03-python-data_structures/3-main.py
+  142  nano 0x03-python-data_structures/3-3-print_reversed_list_integer.py
+  143  chmod 777 0x03-python-data_structures/3-main.py
+  144  mv 0x03-python-data_structures/3-3-print_reversed_list_integer.py 0x03-python-data_structures/3-print_reversed_list_integer.py
+  145  ./0x03-python-data_structures/3-main.py
+  146  nano 0x03-python-data_structures/3-3-print_reversed_list_integer.py
+  147  nano 0x03-python-data_structures/3-print_reversed_list_integer.py
+  148  ./0x03-python-data_structures/3-main.py
+  149  nano 0x03-python-data_structures/3-print_reversed_list_integer.py
+  150  ./0x03-python-data_structures/3-main.py
+  151  pycodestyle 0x03-python-data_structures/3-print_reversed_list_integer.py
+  152  nano 0x03-python-data_structures/3-print_reversed_list_integer.py
+  153  pycodestyle 0x03-python-data_structures/3-print_reversed_list_integer.py
+  154  git add .
+  155  git commit -m "Task 3 print list in reverse"
+  156  git push
+  157  nano 0x03-python-data_structures/3-print_reversed_list_integer.py
+  158  pycodestyle 0x03-python-data_structures/3-print_reversed_list_integer.py
+  159  nano 0x03-python-data_structures/3-print_reversed_list_integer.py
+  160  nano 0x03-python-data_structures/3-main.py
+  161  ./0x03-python-data_structures/3-main.py
+  162  nano 0x03-python-data_structures/3-main.py
+  163  ./0x03-python-data_structures/3-main.py
+  164  nano 0x03-python-data_structures/3-main.py
+  165  ./0x03-python-data_structures/3-main.py
+  166  nano 0x03-python-data_structures/3-print_reversed_list_integer.py
+  167  ./0x03-python-data_structures/3-main.py
+  168  git add .
+  169  git commit -m "added to check if list exists"
+  170  git push
+  171  clear
+  172  nano 0x03-python-data_structures/4-main.py
+  173  nano 0x03-python-data_structures/4-new_in_list.py
+  174  chmod 777 0x03-python-data_structures/4-main.py 0x03-python-data_structures/4-new_in_list.py
+  175  ./0x03-python-data_structures/4-main.py
+  176  pycodestyle 0x03-python-data_structures/4-new_in_list.py
+  177  git add .
+  178  git commit -m 
+  179  git commit -m "task 4, coping list to list in python"
+  180  git push
+  181  nano 0x03-python-data_structures/4-new_in_list.py
+  182  ./0x03-python-data_structures/4-main.py
+  183  clear
+  184  git add .
+  185  git commit -m "task 4, modifed the correct list"
+  186  git push
+  187  clear
+  188  nano 0x03-python-data_structures/5-main.py
+  189  nano 0x03-python-data_structures/5-no_c.py
+  190  chmod 777 0x03-python-data_structures/4-main.py 0x03-python-data_structures/5-main.py
+  191  ./0x03-python-data_structures/5-main.py
+  192  nano 0x03-python-data_structures/5-no_c.py
+  193  ./0x03-python-data_structures/5-main.py
+  194  nano 0x03-python-data_structures/5-no_c.py
+  195  ./0x03-python-data_structures/5-main.py
+  196  nano 0x03-python-data_structures/5-no_c.py
+  197  clear
+  198  chmod 777 0x03-python-data_structures/5-main.py
+  199  ./0x03-python-data_structures/5-main.py
+  200  nano 0x03-python-data_structures/5-no_c.py
+  201  ./0x03-python-data_structures/5-main.py
+  202  nano 0x03-python-data_structures/5-no_c.py
+  203  ./0x03-python-data_structures/5-main.py
+  204  nano 0x03-python-data_structures/5-no_c.py
+  205  ./0x03-python-data_structures/5-main.py
+  206  nano 0x03-python-data_structures/5-no_c.py
+  207  ./0x03-python-data_structures/5-main.py
+  208  nano 0x03-python-data_structures/5-no_c.py
+  209  ./0x03-python-data_structures/5-main.py
+  210  nano 0x03-python-data_structures/5-no_c.py
+  211  ./0x03-python-data_structures/5-main.py
+  212  nano 0x03-python-data_structures/5-no_c.py
+  213  ./0x03-python-data_structures/5-main.py
+  214  nano 0x03-python-data_structures/5-no_c.py
+  215  ./0x03-python-data_structures/5-main.py
+  216  nano 0x03-python-data_structures/5-no_c.py
+  217  ./0x03-python-data_structures/5-main.py
+  218  pycodestyle 0x03-python-data_structures/5-no_c.py
+  219  git add .
+  220  git commit -m "task 5, remove at certain index"
+  221  gitpush
+  222  git push
+  223  ls 0x03-python-data_structures
+  224  nano 0x03-python-data_structures/5-no_c.py
+  225  git add .
+  226  git commit -m "fixed shebang in task 5"
+  227  git push
+  228  pycodestyle 0x03-python-data_structures/5-no_c.py
+  229  pycodestyle 0x03-python-data_structures/5-main.py
+  230  clear
+  231  ./0x03-python-data_structures/5-main.py
+  232  nano 0x03-python-data_structures/5-no_c.py
+  233  ./0x03-python-data_structures/5-main.py
+  234  ./0x03-python-data_structures/5-main.py >> 5.txt
+  235  cat 5.txt -e
+  236  nano 0x03-python-data_structures/5-main.py
+  237  ./0x03-python-data_structures/5-main.py >> 5.txt
+  238  ./0x03-python-data_structures/5-main.py
+  239  nano 0x03-python-data_structures/5-no_c.py
+  240  ./0x03-python-data_structures/5-main.py
+  241  nano 0x03-python-data_structures/5-no_c.py
+  242  ./0x03-python-data_structures/5-main.py
+  243  nano 0x03-python-data_structures/5-no_c.py
+  244  ./0x03-python-data_structures/5-main.py
+  245  nano 0x03-python-data_structures/5-no_c.py
+  246  git add .
+  247  git commit -m "task 5, run code"
+  248  git push
+  249  clear
+  250  nano 0x03-python-data_structures/6-main.py
+  251  nano 0x03-python-data_structures/6-print_matrix_integer.py
+  252  chmod 777 0x03-python-data_structures/6-main.py
+  253  ./0x03-python-data_structures/6-main.py
+  254  nano 0x03-python-data_structures/6-print_matrix_integer.py
+  255  ./0x03-python-data_structures/6-main.py
+  256  nano 0x03-python-data_structures/6-print_matrix_integer.py
+  257  ./0x03-python-data_structures/6-main.py
+  258  ./0x03-python-data_structures/6-main.py | cat -e
+  259  nano 0x03-python-data_structures/6-print_matrix_integer.py
+  260  ./0x03-python-data_structures/6-main.py | cat -e
+  261  clear
+  262  ./0x03-python-data_structures/6-main.py
+  263  nano 0x03-python-data_structures/6-print_matrix_integer.py
+  264  ./0x03-python-data_structures/6-main.py
+  265  nano 0x03-python-data_structures/6-print_matrix_integer.py
+  266  ./0x03-python-data_structures/6-main.py
+  267  nano 0x03-python-data_structures/6-print_matrix_integer.py
+  268  ./0x03-python-data_structures/6-main.py
+  269  nano 0x03-python-data_structures/6-print_matrix_integer.py
+  270  git add . 
+  271  git comit -m "task 6"
+  272  git push
+  273  git commit -m "task 6"
+  274  git push
+  275  clear
+  276  cd 0x03-python-data_structures
+  277  nano 7-main.py
+  278  nano 8-main.py
+  279  nano 9-main.py
+  280  nano 10-main.py
+  281  nano 11-main.py
+  282  cat 9-main.py
+  283  cat 8-main.py
+  284  cat 7-main.py
+  285  nano 7-main.py
+  286  nano 6-main.py
+  287  chmod 777 7-main.py 8-main.py 9-main.py 10-main.py 11-main.py 
+  288  clear
+  289  git add .
+  290  git commit -m "added all main.pys and made the executable for easier maneuvering"
+  291  cd ..
+  292  git push
+  293  git commit -m "added all main.pys and made the executable for easier maneuvering"
+  294  git push
+  295  clear
+  296  ls
+  297  nano 7-add_tuple.py
+  298  ls
+  299  mv 7-add_tuple.py 0x03-python-data_structures/
+  300  ls
+  301  clear
+  302  ls
+  303  nano 0x03-python-data_structures/8-multiple_returns.py
+  304  nano 0x03-python-data_structures/9-max_integer.py
+  305  nano 0x03-python-data_structures/10-divisible_by_2.py
+  306  nano 0x03-python-data_structures/11-delete_at.py
+  307  clear
+  308  ls
+  309  nano 0x03-python-data_structures/12_switch.py
+  310  cd 0x03-python-data_structures
+  311  ls
+  312  ./6-main.py
+  313  ./7-main.py
+  314  ./8-main.py
+  315  ./9-main.py
+  316  ./10-main.py
+  317  nano 10-divisible_by_2.py
+  318  ./10-main.py
+  319  ./11-main.py
+  320  ./12_switch.py
+  321  sudo chmod 777 12_switch.py
+  322  ./12_switch.py
+  323  cd -
+  324  git add .
+  325  git commit -m "remaining tasks"
+  326  git push
+  327  cd -
+  328  ls
+  329  mv 12_switch.py 12-switch.py
+  330  chmod 777 12-switch.py
+  331  git add .
+  332  git commit "correctly renamed switch.py"
+  333  git commit -m "correctly renamed switch.py"
+  334  git push
+  335  cd ..
+  336  git add .
+  337  git commit -m "correctly renamed switch.py"
+  338  git push
+  339  ls 0x03-python-data_structures
+  340  cat 0x03-python-data_structures/12-switch.py
+  341  nano 0x03-python-data_structures/12-switch.py
+  342  git add .
+  343  git commit -m "code 12 is now 5 lines long"
+  344  pycodestyle 0x03-python-data_structures/12-switch.py
+  345  git push
+  346  pycodestyle 0x03-python-data_structures/9-max_integer.py
+  347  pycodestyle 0x03-python-data_structures/8-multiple_returns.py
+  348  nano 0x03-python-data_structures/8-m
+  349  nano 0x03-python-data_structures/8-multiple_returns.py
+  350  pycodestyle 0x03-python-data_structures/8-multiple_returns.py
+  351  nano 0x03-python-data_structures/8-multiple_returns.py
+  352  pycodestyle 0x03-python-data_structures/8-multiple_returns.py
+  353  git add .
+  354  git commit -m "pycode syntax in task 9"
+  355  git push
+  356  nano 0x03-python-data_structures/8-multiple_returns.py
+  357  nano 0x03-python-data_structures/9-max_integer.py
+  358  git add .
+  359  git push "solved syntax errors in task 8 and 9 "
+  360  git push
+  361  git commit -m "solved syntax errors in task 8 and 9 "
+  362  git push
+  363  pycodestyle 0x03-python-data_structures/9-max_integer.py
+  364  nano 0x03-python-data_structures/9-max_integer.py
+  365  clear
+  366  ls
+  367  git status
+  368  nano 0x03-python-data_structures/9-max_integer.py
+  369  git add .
+  370  git commit "added greater or equal to in task 9"
+  371  git commit -m "added greater or equal to in task 9"
+  372  git push
+  373  pycodestyle 0x03-python-data_structures/9-max_integer.py
+  374  nano 0x03-python-data_structures/9-max_integer.py
+  375  pycodestyle 0x03-python-data_structures/9-max_integer.py
+  376  git add .
+  377  ./0x03-python-data_structures/9-main.py
+  378  chmod 777 ./0x03-python-data_structures/9-main.py
+  379  ./0x03-python-data_structures/9-main.py
+  380  nano 0x03-python-data_structures/9-max_integer.py
+  381  ./0x03-python-data_structures/9-main.py
+  382  git add .
+  383  git commit "tried another method"
+  384  git push
+  385  git commit -m "tried another method"
+  386  git push
+  387  clear
+  388  ls
+  389  cd D
+  390  ls Documents
+  391  cd Documents/alx-higher_level_programming
+  392  ls
+  393  clear
+  394  ls
+  395  git pull
+  396  git init
+  397  git pull
+  398  clear
+  399  ls
+  400  cd Documents/alx-higher_level_programming
+  401  ls
+  402  cd 0x02-python-import_modules
+  403  ls
+  404  clear
+  405  ls
+  406  nano 0-add.py
+  407  pycodestyle 0-add.py
+  408  ls
+  409  nano 1-calculation.py
+  410  nano calculator_1.py
+  411  nano 2-args.py
+  412  chmod 777 1-calculation.py 2-args.py
+  413  nano 3-infinite_add.py
+  414  curl -Lso "hidden_4.pyc" "https://github.com/holbertonschool/0x02.py/raw/master/hidden_4.pyc"
+  415  ls
+  416  cat hidden_4.pyc
+  417  nano hidden_4.pyc
+  418  nano 4-hidden_discovery.py
+  419  clear
+  420  nano 5-variable_load.py
+  421  ls
+  422  nano 101-easy_print.py
+  423  nano 103-fast_alphabet.py
+  424  chmod 777 1-calculation.py 2-args.py 3-infinite_add.py 4-hidden_discovery.py 5-variable_load.py 
+  425  git add .
+  426  git commit -m "Project/dir 0x02"
+  427  cd ..
+  428  git push
+  429  pycodestyle 0-add.py
+  430  ls
+  431  cd 0x02-python-import_modules
+  432  pycodestyle 0-add.py
+  433  chmod 777 0-add.py
+  434  ./0-add.py
+  435  nano 0-add.py
+  436  cd -
+  437  git add .
+  438  git commit -m "Fixed failing checks in task 0"
+  439  git push
+  440  python3
+  441  clear
+  442  mkdir 0x04-python-more_data_structures
+  443  nano 0x04-python-more_data_structures/README.md
+  444  cd 0x04-python-more_data_structures
+  445  ls
+  446  clear
+  447  nan 0-main.py
+  448  nano 0-main.py
+  449  cd -
+  450  git add .
+  451  git commit -m "Added a readmefilee"
+  452  git push
+  453  ls
+  454  ls0x04
+  455  ls 0x04-python-more_data_structures
+  456  ls
+  457  clear
+  458  ls
+  459  cd Documents
+  460  ls
+  461  git init
+  462  ls
+  463  git clone https://github.com/leenduati/alx-low_level_programming
+  464  clear
+  465  ls
+  466  cd alx-low_level_programming
+  467  ls
+  468  mkdir 0x18-dynamic_libraries
+  469  clear
+  470  ls
+  471  sudo apt install gcc
+  472  cd ~
+  473  git clone https://github.com/holbertonschool/Betty.git
+  474  ls
+  475  ccd Betty
+  476  cd Betty
+  477  ls
+  478  ./install.sh
+  479  sudo ./install.sh
+  480  cd -
+  481  cd  ~/Documents
+  482  clear
+  483  ls
+  484  cd alx-low_level_programming
+  485  clear
+  486  nano _putchar.c
+  487  ls
+  488  mv _putchar.c ./0x18-dynamic_libraries/
+  489  ls
+  490  cd alx-low_level_programming
+  491  ls
+  492  clear
+  493  cd 0x18-dynamic_libraries
+  494  nano README.md
+  495  clear
+  496  ls
+  497  cp ../0x09-static_libraries/ ./
+  498  cp -r ../0x09-static_libraries/ ./
+  499  ls
+  500  cp -r ../0x09-static_libraries/*c ./
+  501  ls
+  502  ls ../0x09-static_libraries
+  503  cat main.h
+  504  cp -r ../0x09-static_libraries/* ./
+  505  ls
+  506  rm -r 0x09-static_libraries
+  507  ls
+  508  gcc --help
+  509  gcc --help | grep dyn
+  510  cat main.h
+  511  clear
+  512  gcc --help | grep shared
+  513  nano 0-main.c
+  514  gcc --help | grep stat
+  515  gcc --help | grep man
+  516  gcc -help
+  517  gcc --help
+  518  ls
+  519  cat commands
+  520  gcc *.c -c -fPIC
+  521  rm 0-main.c
+  522  gcc *.c -c -fPIC
+  523  gcc *-o -shared liball.so
+  524  gcc *.o -shared liball.so
+  525  gcc *.o -shared -o liball.so
+  526  nano 0-mqin.c
+  527  clear
+  528  ls
+  529  gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+  530  ls
+  531  mv 0-mqin.c 0-main.c
+  532  gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+  533  ls -la lib*
+  534  nm -D libdynamic.so 
+  535  gcc *.o -shared libdynamic.so
+  536  gcc *.o -shared -o libdynamic.so
+  537  nm -D libdynamic.so 
+  538  gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+  539  gcc --help
+  540  ldd len
+  541  gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+  542  cat main.h
+  543  clear
+  544  ls
+  545  rm liball.
+  546  rm liball.so
+  547  ls
+  548  clear
+  549  ls
+  550  rm liball.a
+  551  ls
+  552  nm -D libdynamic.so 
+  553  cat 0-main.c
+  554  gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+  555  cat main.h
+  556  cat 0-isupper.c
+  557  ls
+  558  mv 0-*.c *.c
+  559  ls
+  560  mv 0-isupper.c isupper.c 0-memset.c memset.c 0-strcat.c strcat.c 1-isdigit.c isdigit.c
+  561  ls
+  562  mv 0-isupper.c isupper.c 0-memset.c memset.c 0-strcat.c strcat.c 1-isdigit.c isdigit.c
+  563  sudo apt install mmv
+  564  mmv 0-isupper.c isupper.c 0-memset.c memset.c 0-strcat.c strcat.c 1-isdigit.c isdigit.c
+  565  mmv 1-\* \*
+  566  mmv 1-\* \#1
+  567  ls
+  568  rm -h
+  569  rm --help
+  570  cd ..
+  571  ls
+  572  cd -
+  573  ls
+  574  cd -
+  575  git add .
+  576  git commit -m "Task 1"
+  577  git push
+  578  ls
+  579  cd `
+  580  cd -
+  581  ls
+  582  rm -r ./
+  583  rm -r ./*
+  584  ls
+  585  clear
+  586  ;s
+  587  ls
+  588  cp ../0x09-static_libraries/ ./
+  589  cp -r ../0x09-static_libraries/ ./
+  590  ls
+  591  rm -r 0x09-static_libraries
+  592  history
+  593  cp ../0x09-static_libraries/main.h ./
+  594  ls
+  595  cat main.h
+  596  nano 0-main.c
+  597  mv 0-main.c README.md
+  598  cat README.md
+  599  nano 0-main.c
+  600  ls
+  601  clear
+  602  cp ../0x09-static_libraries/0-isupper.c isupper.c ../0x09-static_libraries/0-memset.c memset.c
+  603  cp ../0x09-static_libraries/0-isupper.c isupper.c
+  604  ls
+  605  cp ../0x09-static_libraries/0-memset.c memset.c
+  606  cp ../0x09-static_libraries/0-strcat.c strcat.c
+  607  cp ../0x09-static_libraries/1-isdigit.c isdigit.c
+  608  cp ../0x09-static_libraries/1-memcpy.c memcopy.c
+  609  cp ../0x09-static_libraries/1-strncat.c strncat.c
+  610  cp ../0x09-static_libraries/2-strchr.c strchr.c
+  611  cp ../0x09-static_libraries/2-strlen.c strlen.c
+  612  cp ../0x09-static_libraries/2-strncpy.c strncpy.c
+  613  cp ../0x09-static_libraries/3-islower.c islower.c
+  614  cp ../0x09-static_libraries/3-puts.c puts.c
+  615  cp ../0x09-static_libraries/3-strcmp.c strcmp.c
+  616  cp ../0x09-static_libraries/3-strspn.c strspn.c
+  617  ls
+  618  cp ../0x09-static_libraries/4-isalpha.c isalpha.c
+  619  cp ../0x09-static_libraries/4-strpbrk.c strpbrk.c
+  620  cp ../0x09-static_libraries/5-strstr.c strstr.c
+  621  cp ../0x09-static_libraries/6-abs.c abs.c
+  622  ls ../0x09-static_libraries/
+  623  ls
+  624  gcc *.c -c -fPIC
+  625  ls
+  626  gcc *.o -shared -o libdynamic.so
+  627  ls
+  628  ls -la lib*
+  629  chmod 771 libdynamic.so
+  630  ls -la lib*
+  631  nm -D libdynamic.so
+  632  nano 0-main.
+  633  gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+  634  mv 0-main. 0-main.c
+  635  ls
+  636  gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+  637  ls
+  638  ldd len
+  639  gcc -shared -o libdynamic.so *.o
+  640  nm -D libdynamic.so
+  641  xport LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
+  642  export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
+  643  gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+  644  ls
+  645  gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+  646  nm -D libdynamic.so
+  647  ls
+  648  cp ../0x09-static_libraries/_putchar.c _putchar.c
+  649  gcc *.c -c -fPIC
+  650  rm 0-main.c
+  651  gcc *.c -c -fPIC
+  652  nm -D libdynamic.so
+  653  gcc -shared -o libdynamic.so *.o
+  654  nano 0-main.c
+  655  gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+  656  ls *.c
+  657  cp ../0x09-static_libraries/100-atoi.c atoi.c
+  658  cp ../0x09-static_libraries/9-strcpy.c strcpy.c
+  659  rm 0-main.*
+  660  ls
+  661  rm libdynamic.so
+  662  ls
+  663  gcc *.c -c -fPIC
+  664  gcc -shared -o libdynamic.so *.o
+  665  ls -la lib*
+  666  nm -D libdynamic.so
+  667  ls
+  668  nano 0-main.c
+  669  gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+  670  cat main.h
+  671  nano main.h
+  672  gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+  673  ldd len
+  674  export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
+  675  ldd len
+  676  ./len
+  677  git add .
+  678  git commit -m "Task 1 of dynamic link libs"
+  679  cd ..
+  680  ls
+  681  cd ..
+  682  git push
+  683  cd -
+  684  git push
+  685  nano 1-create_dynamic_lib.sh
+  686  chmod 777 1-create_dynamic_lib.sh
+  687  ./1-create_dynamic_lib.sh
+  688  ls
+  689  nm -D --defined-only liball.so 
+  690  ls
+  691  mv 1-create_dynamic_lib.sh 0x18-dynamic_libraries
+  692  rm liball.so
+  693  cd 0x18-dynamic_libraries
+  694  ./1-create_dynamic_lib.sh
+  695  nm -D --defined-only liball.so 
+  696  git add .
