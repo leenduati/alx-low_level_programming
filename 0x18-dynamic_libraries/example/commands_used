@@ -1,0 +1,112 @@
+    1  2022-07-22 clear
+    2  2022-07-22 ls
+    3  2022-07-22 cd root/alx-low_level_programming/
+    4  2022-07-22 ls
+    5  2022-07-22 mkdir 0x09-static_libraries
+    6  2022-07-22 nano README.md
+    7  2022-07-22 cd 0x09-static_libraries/
+    8  2022-07-22 nano 0x09-static_libraries
+    9  2022-07-22 ls
+   10  2022-07-22 cd 0x09-static_libraries 
+   11  2022-07-22 cat 0x09-static_libraries 
+   12  2022-07-22 mv 0x09-static_libraries README.md
+   13  2022-07-22 ls
+   14  2022-07-22 clear
+   15  2022-07-22 ls
+   16  2022-07-22 nano README.md 
+   17  2022-07-22 ls
+   18  2022-07-22 mkdir example
+   19  2022-07-22 ls
+   20  2022-07-22 cd example/
+   21  2022-07-22 nano addNumbers.c
+   22  2022-07-22 cat ../../0x02-functions_nested_loops/1-alphabet.c
+   23  2022-07-22 nano addNumbers.c 
+   24  2022-07-22 ls
+   25  2022-07-22 clear
+   26  2022-07-22 ls
+   27  2022-07-22 cp addNumbers.c subNumbers.c
+   28  2022-07-22 nano subNumbers.c 
+   29  2022-07-22 clear
+   30  2022-07-22 mkdir lee_include lee_lib
+   31  2022-07-22 ls
+   32  2022-07-22 nano Learning Objectives
+   33  2022-07-22 nano addNumbers.c 
+   34  2022-07-22 nano subNumbers.c 
+   35  2022-07-22 nano doMath.c
+   36  2022-07-22 ls
+   37  2022-07-22 nano lee_include/main.h
+   38  2022-07-22 cat ../../0x01-variables_if_else_while/main.h
+   39  2022-07-22 clear
+   40  2022-07-22 cat ../../0x02-functions_nested_loops/main.h 
+   41  2022-07-22 nano lee_include/main.h
+   42  2022-07-22 nano lee_include/main.h lee_include/main.h 
+   43  2022-07-22 cat lee_include/main.h 
+   44  2022-07-22 nano lee_include/main.h 
+   45  2022-07-22 cp --help
+   46  2022-07-22 cp ../../0x02-functions_nested_loops/main.h 
+   47  2022-07-22 cp ../../0x02-functions_nested_loops/main.h lee_include/main.h 
+   48  2022-07-22 nano lee_include/main.h 
+   49  2022-07-22 clear
+   50  2022-07-22 ls
+   51  2022-07-22 gcc -c addNumbers.c 
+   52  2022-07-22 ls
+   53  2022-07-22 gcc addNumbers.
+   54  2022-07-22 cat addNumbers.c
+   55  2022-07-22 ls
+   56  2022-07-22 gcc -c addNumbers.c subNumbers.c 
+   57  2022-07-22 ls
+   58  2022-07-22 file addNumbers.o
+   59  2022-07-22 clear
+   60  2022-07-22 man ar
+   61  2022-07-22 ar --help
+   62  2022-07-22 ar cr libmathtest.a addNumbers.o subNumbers.o
+   63  2022-07-22 ls
+   64  2022-07-22 ar t libmathtest.a 
+   65  2022-07-22 mv libmathtest.a lee_lib/
+   66  2022-07-22 ls
+   67  2022-07-22 clear
+   68  2022-07-22 ls
+   69  2022-07-22 gcc doMath.c 
+   70  2022-07-22 gcc doMath.c -I lee_include/ 
+   71  2022-07-22 cat doMath.c -n
+   72  2022-07-22 nano doMath.c 
+   73  2022-07-22 gcc doMath.c -I lee_include/ 
+   74  2022-07-22 nano doMath.c 
+   75  2022-07-22 gcc doMath.c -I lee_include/ 
+   76  2022-07-22 clar
+   77  2022-07-22 clear
+   78  2022-07-22 gcc doMath.c -I lee_include/ 
+   79  2022-07-22 gcc doMath.c -I lee_include/ -L lee_lib/ 
+   80  2022-07-22 ls
+   81  2022-07-22 cd lee_lib/
+   82  2022-07-22 ls
+   83  2022-07-22 cd -
+   84  2022-07-22 gcc doMath.c-lmathtest  -I lee_include/ -L lee_lib/ 
+   85  2022-07-22 gcc doMath.c -lmathtest  -I lee_include/ -L lee_lib/ 
+   86  2022-07-22 ./a.out 
+   87  2022-07-22 cat subNumbers.c
+   88  2022-07-22 cat doMath.c 
+   89  2022-07-22 nano doMath.c 
+   90  2022-07-22 clear
+   91  2022-07-22 gcc doMath.c -lmathtest  -I lee_include/ -L lee_lib/ 
+   92  2022-07-22 ./a.out 
+   93  2022-07-22 file a.out 
+   94  2022-07-22 history
+   95  2022-07-22 printenv
+   96  2022-07-22 printenv | paste
+   97  2022-07-22 printenv | sort
+   98  2022-07-22 sort --help
+   99  2022-07-22 printenv | sort
+  100  2022-07-22 HISTTIMEFORMAT="%Y-%m-%d
+"
+  101  2022-07-22 history 
+  102  2022-07-22 HISTTIMEFORMAT="%Y-%m-%d"
+  103  2022-07-22 history 
+  104  2022-07-22 HISTTIMEFORMAT="%Y-%m-%d"
+  105  2022-07-22 HISTTIMEFORMAT="%Y-%m-%d "
+  106  2022-07-22 history 
+  107  2022-07-22 nano ~/.bashrc 
+  108  2022-07-22 nano commands_used
+  109  2022-07-22 fg
+  110  2022-07-22 ls
+  111  2022-07-22 history > commands_used
