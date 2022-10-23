@@ -14,14 +14,10 @@ hash_table_t *hash_table_create(unsigned long int size)
 	hash_node_t **temp;
 	hash_table_t *h;
 
-	/**
-	*temp = malloc(sizeof(hash_node_t));
-	*h = malloc(sizeof(hash_table_t));
-	*/
+	temp = malloc(sizeof(hash_node_t));
+	h = malloc(sizeof(hash_table_t));
 
 	h->size = size;
 	h->array = temp;
 	return (h);
-	free(temp);
-	free(h);
 }
